@@ -18,8 +18,8 @@ function calculate() {
   var answer = 0
 
   // process
-  for (repeat = 0; repeat < number; repeat++) {
-    answer = number / 2 * (number + 1)
+  for (repeat = 0; repeat <= number; repeat++) {
+    answer += repeat
   }
   
   //output
