@@ -14,11 +14,11 @@ if (navigator.serviceWorker) {
 function calculate() {
 
   //input
-  const number = parseInt(document.getElementById('number').value)
+  const input = parseInt(document.getElementById('input').value)
   var answer = 0
 
   // process
-  for (repeat = 0; repeat <= number; repeat++) {
+  for (repeat = 0; repeat <= input; repeat++) {
     answer += repeat
   }
   
